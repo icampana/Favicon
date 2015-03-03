@@ -1,7 +1,15 @@
 {
     "title": "Favicon",
-    "version": "1.00",
+    "version": "1.01",
     "name": "Favicon",
     "description": "Change favicon for the whole website",
-    "author": "ImpressPages"
+    "author": "ImpressPages",
+    "options": [
+        {
+            "label": "Favicon Path",
+            "name": "faviconPath",
+            "type": "text",
+            "default": "favicon.ico"
+        }
+    ]
 }
